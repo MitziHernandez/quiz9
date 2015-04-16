@@ -1,0 +1,17 @@
+//Mitzi Hernandez
+#include <iostream>
+using namespace std;
+
+bool esPalindromo(string x, int size)
+{
+	for(int i=0; i<size/2; i++)
+	if (pali[i]!= pali[size-i-1])
+	return false;
+}
+
+
+	int main()
+	{
+		string pali;
+		cout<< "ingrese el palindrome" <<endl;
+		cin>> pali;
