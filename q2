@@ -1,0 +1,21 @@
+//Mitzi Hernandez
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+long superpower(long a, long b)
+{
+	return pow(a,b);
+}
+
+	int main()
+	{
+		long a, b, resultado;
+		cout<< "ingrese el primer numero" <<endl;
+		cin>>a;
+		cout<< "ingrese el segundo numero" <<endl;
+		cin>>b;
+		resultado= superpower(a,b);
+		cout<<"es : " <<resultado<< endl;
+		return 0;
+	}
